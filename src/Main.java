@@ -4,14 +4,6 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-
-		int[] whiteList = sc.nextInt(args[0]);
-
-
-
-
-
-
 		System.out.println(gcd(54,22));
 	}
 
