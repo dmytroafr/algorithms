@@ -7,7 +7,6 @@ public class Solution2 {
         //         return i-1;
         //     }
         //     int y = i * i;
-            
         //     if (y == x) {
         //         return i;
         //     } else if (y > x ){
