@@ -1,9 +1,6 @@
-import java.util.ArrayDeque;
-
 public class Solution3 {
 
     class ListNode {
-        EnumSet
         int val;
         ListNode next;
         ListNode(int x) {

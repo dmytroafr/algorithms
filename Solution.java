@@ -1,6 +1,3 @@
-import java.util.Arrays;
-import java.util.List;
-
 class Solution {
     public static int lengthOfLastWord(String s) {
         String[] split = s.trim().split(" ");
