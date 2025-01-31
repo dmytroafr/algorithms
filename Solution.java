@@ -27,21 +27,12 @@ class Solution {
         }
         return true;
     }
-
-
-
     public static void main(String[] args) {
-
         // String s = "abc", t = "ahbgdc";
         String s = "aaaaaa", t = "bbaaaa";
         // String s = "axc", t = "ahbgdc";
         // int result = lengthOfLastWord(s);
         boolean result = isSubsequence(s, t);
         System.out.println(result);
-
-
-
-
-
     }
 }
