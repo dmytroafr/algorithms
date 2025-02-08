@@ -1,7 +1,4 @@
-
-
- 
-class Solution10 {
+class Solution100 {
     public class TreeNode {
         int val;
         TreeNode left;

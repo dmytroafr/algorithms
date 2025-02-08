@@ -1,11 +1,3 @@
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
 class Solution16 {
     public String reverseWords(String s) {
         String[] split = s.trim().split("\\s+");
@@ -21,11 +13,8 @@ class Solution16 {
 
         return sb.toString();
 
-    
         // List<String> asList = Arrays.asList(s.trim().split("\\s+"));
         // Collections.reverse(asList);
         // return String.join(" ", asList);
-
-
     }
 }
