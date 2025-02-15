@@ -1,5 +1,3 @@
-import java.util.List;
-
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (l1 == null) return l2;

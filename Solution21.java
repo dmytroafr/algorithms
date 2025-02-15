@@ -1,6 +1,4 @@
 import java.util.HashMap;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 class Solution21 {
     public boolean wordPattern(String pattern, String s) {
