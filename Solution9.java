@@ -11,12 +11,8 @@ class Solution9 {
 
         for (char c : ransomNote.toCharArray()){
             if (!source.containsKey(c)) return false;
-            source.computeIfPresent(c, (k, v)-> v == 1? null: v -1);
+            source.computeIfPresent(c, (k, v)-> v == 1? null: v - 1);
         }
         return true;
-
-        
-
-
     }
 }
