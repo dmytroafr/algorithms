@@ -1,3 +1,5 @@
+import java.io.IOException;
+import java.io.PrintStream;
 import java.util.Arrays;
 
 public class SelectingSort {
@@ -20,8 +22,10 @@ public class SelectingSort {
     }
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException{
+        PrintStream printStream = new PrintStream("out.txt");
+        
         int[] nums = {5,7,2,3,9,1,4,8,6};
-        System.out.println(Arrays.toString(selectingSort(nums)));
+        printStream.println(Arrays.toString(selectingSort(nums)));
     }
 }
